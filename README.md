@@ -12,10 +12,10 @@ http://localhost:3000/put?key=Ander&value=BigBoss
 http://localhost:3000/put?key=Anderko&value[name]=Bogat&value[job]=masterchef -> value={"name":"Bogat","job":"masterchef"}
 
 Read value:
-http://localhost:3000/get?key=Anderko
+http://localhost:3000/get?key=Ander
 
 Read value not older then 500 seconds:
-http://localhost:3000/get?key=Anderko&timeout=500
+http://localhost:3000/get?key=Ander&timeout=500
 
 Read database content in JSON array:
 http://localhost:3000/json
