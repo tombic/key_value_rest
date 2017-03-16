@@ -7,11 +7,13 @@ Usage examples (you can use curl, wget or even web browser to try):
 
 Add record:
 http://localhost:3000/put?key=Ander&value=BigBoss
+
 (create JSON structured value)
 http://localhost:3000/put?key=Anderko&value[name]=Bogat&value[job]=masterchef
 
 Read value:
 http://localhost:3000/get?key=Anderko
+
 Read value not older then 500 seconds:
 http://localhost:3000/get?key=Anderko&timeout=5
 
